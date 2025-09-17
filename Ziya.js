@@ -34,7 +34,7 @@ const app = express();
 app.get("/qr", (req, res) => {
   res.sendFile(path.join(__dirname, "qr.png"));
 });
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT || 8000, () => {
   console.log("🌐 QR Web Server running...");
 });
 // ======================================
