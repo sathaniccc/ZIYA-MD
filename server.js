@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8000;
 let start = Date.now();
 
 app.get('/', (req, res) => res.send('Ziya is running'));
