@@ -1,2 +1,7 @@
-# ZIYA-MD
-🚀 Ziya-Bot is an advanced WhatsApp multi-functional bot built using Baileys (2025 latest version).   It comes with blazing fast performance, modular plugin system, QR Web Interface for easy login,   and a stylish command menu showing device info, uptime, and plugin count.    ✨ Key Features:   - Dynamic command menu with advanced styling  
+# Ziya-Bot (Koyeb-ready)
+
+This is a ready-to-deploy WhatsApp bot scaffold using Baileys (2025-ready).
+Steps:
+1. Generate session files locally by running once (node Ziya.js) and scanning QR.
+2. Commit session files securely or upload them to Koyeb deployment (keep private).
+3. Deploy to Koyeb: connect GitHub repo, build command `npm install`, run command `node Ziya.js`.
